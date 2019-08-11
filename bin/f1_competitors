@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-puts "Welcome to F1 Competitors"
-puts "-------------------------"
-puts " "
+require_relative "../lib/environment"
+
+F1Competitors::CLI.new.call
 
