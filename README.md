@@ -1,7 +1,8 @@
 # F1Competitors
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/f1_competitors`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+Welcome to F1 Competitors. This is a gem that lets you see the drivers participating in the F1 World Championship.
+
+It uses Nokogiri to get data from Formula1.com
 
 ## Installation
 
@@ -21,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The gem will prompt you with a list of drivers. Simply type the corresponding number to learn more about the driver of your choice.
 
 ## Development
 
@@ -40,4 +41,3 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the F1Competitors project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/'neosaurrrus'/f1_competitors/blob/master/CODE_OF_CONDUCT.md).
-
