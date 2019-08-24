@@ -6,19 +6,9 @@ It uses Nokogiri to get data from Formula1.com
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'f1_competitors'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install f1_competitors
+1. Clone down this repo.
+2. Run `bundler install` to grab all the required dependancies.
+3. Run `./bin/f1competitors`
 
 ## Usage
 
