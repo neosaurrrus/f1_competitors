@@ -49,7 +49,7 @@ class CLI
     variable_underline(selected_driver.name.length+8)
     user_post_profile_input
   end #of get_driver_profile
-   
+  
   def self.user_post_profile_input
     puts "\n1.".light_blue + "Return to driver_list" + "\n2.".light_blue + "Quit"
     input = gets.chomp.to_i
@@ -77,4 +77,3 @@ class CLI
     end
 
 end # of class
-
